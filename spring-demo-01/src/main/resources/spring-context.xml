@@ -6,7 +6,7 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
 	<!-- 使用 框架加载class -->
-	<bean id="helloService" class="com.shsxt.demo.HelloService"></bean>
+	<bean id="helloService" class="com.shsxt.demo.HelloService1"></bean>
 
 
 </beans>
