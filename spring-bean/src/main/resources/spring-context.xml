@@ -4,13 +4,8 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans.xsd">
-<!-- 
-	xmlns:名称空间
-	schemaLocation：约束规范 （成对 出现）
- -->
 
-	<!-- 使用 框架加载class -->
-	<bean id="helloService" class="com.shsxt.demo.HelloService"></bean>
-
+	<bean id="userService" class="com.shsxt.demo.UserService"></bean>
+	<bean id="userService2" class="com.shsxt.demo.UserService2"></bean>
 
 </beans>
